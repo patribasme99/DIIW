@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana;
+    font-size: 0.8em;
+    color: navy;
+    position: relative;
+}
+
+.padre {
+    background-color: #CCF;
+    border: 2px solid #9933ff;
+    width: 750px;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.hijo1 {
+    background-color: #6CF;
+    border: 2px solid blue;
+    width: 650px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+}
+
+.hijo2 {
+    background-color: #FCF;
+    border: 2px solid purple;
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+    margin: auto;
+}
+
+.hijo3 {
+    background-color: transparent;
+    border: 2px solid blue;
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    padding: 20px;
+}
+
+.hijo4 {
+    background-color: grey;
+    border: 2px solid red;
+    width: 550px;
+    height: 200px;
+    padding: 20px;
+}

@@ -1,0 +1,78 @@
+body {
+  padding: 1em 2em;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+li {
+  text-align: center;
+  line-height: 2;
+  background: slategrey;
+}
+div {
+  width: 12em;
+  float: left;
+  margin-right: 2em;
+}
+hr {
+  clear: both;
+  padding-top: 1em;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+.uno li{
+  background: slategrey;
+}
+
+.dos{
+  background: lightsteelblue;
+}
+
+.tres {
+  background: lightsteelblue;
+}
+
+
+body {
+    border: 1px solid blue;
+    margin-right: 600px;
+    margin-bottom: 95px;
+}
+
+div[class="uno"] li:first-child {
+    background-color: lightsteelblue;
+}
+
+div[class="dos"] {
+    color: red;
+    background-color: white;
+}
+
+div[class="dos"] ol > li:nth-of-type(3) {
+    background-color: lightsteelblue;
+}
+
+div[class="dos"] i::after {
+    content: "Soy posterior al bloque 2";
+    color: green;
+}
+
+div[class="dos"] i {
+    font-style: normal;
+}
+
+div[class="tres"] {
+    background-color: white;
+}
+
+div[class="tres"]::before {
+    content: "Soy previo al bloque 3";
+    color: blue;
+}
+
+div[class="tres"] ul>li:not(li:last-child) {
+    background-color: lightsteelblue;
+}

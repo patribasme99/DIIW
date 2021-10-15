@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container ul {
+    border: 2px solid gray;
+    margin: 5px;
+    padding: 30px;
+    width: 100px;
+}
+
+.container ul li {
+    color: red;
+    text-align: center;
+    margin: 5px;
+}
+
+.lista1 {
+    list-style-image: url('../imagenes/clock.png');
+    list-style-type: square;
+}
+
+.lista2 {
+    list-style-image: url('../imagenes/email.png');
+    list-style-type: square;
+}
+
+.lista3 {
+    list-style-image: url('../imagenes/smiley_big_grin.png');
+    list-style-type: circle;
+}

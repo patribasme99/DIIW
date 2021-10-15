@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: red;
+}
+
+p, .span2, .span3, div {
+    color: white;
+    font-weight: bold;
+    border: thick solid black;
+}
+
+p {
+    background-color: red;
+}
+
+div {
+    background-color: green;
+}
+
+p, div {
+    width: 25%;
+    height: 75px;
+}
+
+.span2 {
+    margin-right: 15px;
+    background-color: blue;
+}
+
+.span3 {
+    margin-left: 15px; 
+    background-color: blue;
+}
+
+.div4 {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.div5 {
+    margin-top: 6px;
+}

@@ -1,0 +1,47 @@
+body {
+    color: grey;
+    border: 1px solid gray;
+    margin-bottom: 450px;
+    padding: 10px;
+}
+
+/*ESTILO DE CLASES*/
+
+il[class="verdes"] {
+    color: green;
+}
+il[class="segundo"] {
+    color: blue;
+}
+il[class="segundo"]>li:first-child, il[class="segundo"]>li:last-child {
+    font-style: oblique;
+}
+il:last-child>li:nth-child(2) {
+    background-color: aqua;
+}
+il:last-child {
+    text-shadow: 2px 2px gray;
+}
+
+
+/*Estilo de Atributo*/
+il:last-child {
+    text-decoration: overline;
+}
+
+/*El primer elemento*/
+
+il>li:first-child {
+    text-align: right
+}
+/*Añadir comentarios de antes y después del color verde */
+
+il[class="verdes"]::before {
+    content: "Estoy antes de los de color verde";
+    color: green;
+}
+
+il[class="verdes"]::after {
+    content: "Estoy tras los de color verde";
+    color: green;
+}

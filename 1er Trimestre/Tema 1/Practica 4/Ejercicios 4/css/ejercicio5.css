@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: red;
+}
+
+div span {
+    font-size: 2em;
+    padding: 20px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    border: thick solid black;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+}
+
+div {
+    background-color: lightblue;
+    padding: 40px;
+    height: 200px;
+    border: thick solid black;
+    position: relative;
+}
+
+.caja2 {
+    position: absolute;
+    bottom: 90px;
+    right: 150px;
+}
+
+.caja1 {
+    background-color: red;
+}
+
+.caja2 {
+    background-color: blue;
+}
+
+.caja3 {
+    background-color: green;
+}
+
+.caja4 {
+    background-color: yellow;
+}

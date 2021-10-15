@@ -1,0 +1,21 @@
+.recuadro1 {
+    color: rgba(181, 107, 155, 0.25);
+}
+
+.recuadro2 {
+    color: rgba(186, 107, 184, 0.51);
+}
+
+.recuadro3 {
+    color: rgba(236, 51, 184, 0.72);
+}
+
+.recuadro4 {
+    color: rgba(236, 0, 0, 1);
+    background-color: rgba(0, 214, 217, 0.86);
+}
+
+.recuadro5 {
+    color: rgba(255, 0, 0, 0.25);
+    background-color: rgba(0, 214, 217, 0.16);
+}

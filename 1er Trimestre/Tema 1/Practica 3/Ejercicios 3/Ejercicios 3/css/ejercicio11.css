@@ -1,0 +1,33 @@
+.especial {
+    font-size: 1.5em;
+    line-height: 2em;
+    background-color: lightgray;
+    text-align: justify;
+}
+
+.especial em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.especial strong {
+    font-weight: normal;
+    font-style: italic;
+    background-color: #FF6;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 3px;
+}
+
+.especial:first-line {
+    color: blue;
+    background-color: lightblue;
+    font-variant: small-caps;
+}
+
+.especial:first-letter {
+    margin-left: 60px;
+    font-size: 2em;
+    font-family: serif;
+    color: blue;
+}

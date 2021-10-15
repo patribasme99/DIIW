@@ -1,0 +1,27 @@
+h1 {
+    color: teal;
+}
+
+strong, p>a {
+    color: red;
+}
+
+span[class="destacado"] {
+    color: orange;
+}
+
+h2, p>a>em {
+    color: blue;
+}
+
+.adicional {
+    color: olive;
+}
+
+.adicional p span, .adicional p>a {
+    color: green;
+}
+
+.adicional p span.especial {
+    color: purple;
+}

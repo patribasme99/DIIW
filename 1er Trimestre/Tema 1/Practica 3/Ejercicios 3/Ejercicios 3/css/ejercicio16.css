@@ -1,0 +1,8 @@
+div:first-of-type {
+    background-color: lightgray;
+}
+
+.bordes {
+    border-top-width: medium;
+    border-top-color: blue;
+}

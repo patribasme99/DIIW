@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+* {
+    color: red;
+}
+
+body {
+    display: inline-flex;
+    margin-top: 30px;
+    padding-left: 350px;
+}
+
+div {
+    background-color: lightgray;
+    border-radius: 15px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.recuadro1 {
+    
+}
+
+.recuadro2 {
+    font-family: Barrio;
+}

@@ -1,0 +1,42 @@
+.contenedor {
+    background-color: lightcyan;
+    width: 620px;
+    height: 600px;
+    /*FALTA CENTRAR HORIZONTALMENTE*/
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.div3 {
+    width: 350px;
+    background-color: lightblue;
+    font-family: Algerian;
+    font-size: 200px;
+    color: blue;
+    position: absolute;
+    bottom: 250px;
+    right: 120px;
+    z-index: 1;
+}
+
+.div1 {
+    font-family: Arial;
+    font-size: 70px;
+    color: #ff00ff;
+    position: absolute;
+    bottom: 230px;
+    right: 40px;
+    z-index: 2;
+}
+
+.div2 {
+    font-family: Arial;
+    font-size: 90px;
+    color: red;
+    position: absolute;
+    bottom: 255px;
+    right: 40px;
+    z-index: 3;
+}

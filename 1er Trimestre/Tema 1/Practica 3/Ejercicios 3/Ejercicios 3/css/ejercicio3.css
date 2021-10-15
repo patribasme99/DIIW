@@ -1,0 +1,19 @@
+h1 span {
+    color: blue;
+}
+
+p span {
+    color: green;
+}
+
+p em {
+    color: green;
+}
+
+p em span {
+    color: yellow;
+}
+
+p strong span {
+    color: red;
+}

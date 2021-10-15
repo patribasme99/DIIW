@@ -1,0 +1,40 @@
+.menu {
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.menu li {
+    border: 1px solid lightgray;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li a {
+    background: url('../imagenes/flecha_inactiva.png') no-repeat;
+    text-align: center;
+    margin-left: 3px;
+    background-color: lightcyan;
+    color: grey;
+    text-decoration: none;
+    padding: 0.2em 0em 0.2em 1.5em;
+}
+
+.menu li:hover {
+    background-color: cyan;
+    color: white;
+}
+
+.menu li a:hover {
+    background: url('../imagenes/flecha_activa.png') no-repeat;
+    text-align: center;
+    margin-left: 3px;
+    background-color: cyan;
+    color: white;
+    text-decoration: none;
+    padding: 0.2em 0em 0.2em 1.5em;
+}
