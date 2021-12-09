@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEM,AAAA,EAAE,CAFR,KAAK,CACD,KAAK,CAAC,CAAC,CACA;EACD,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "style_B.scss"
+    ],
+    "names": [],
+    "file": "style_B.css"
+}

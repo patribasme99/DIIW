@@ -1,0 +1,27 @@
+/*.tres:before {
+    content:"Soy previo al bloque 3";
+    color:blue;}
+
+#i1:after {
+    content: "Soy posterior al bloque 2";
+    color:green;
+    border: 2;
+}*/
+
+@mixin bloques($content, $color) {
+    content: $content;
+    color: $color;
+}
+
+.tres {
+    &:before {
+        @include bloques("Soy previo al bloque 3", blue);
+    }
+}
+
+#i {
+    &:after {
+        @include bloques("Soy posterior al bloque 2", green);
+        border: 2;
+    }
+}
