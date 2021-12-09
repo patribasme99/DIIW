@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+}
+.menu {
+    background-color: lightgrey;
+    height: 20%;
+}
+
+.cabecera {
+    background-color: lightgreen;
+    height: 30%;
+}
+
+.columna1 {
+    background-color: lightpink;
+    height: 40%;
+}
+
+.contenido {
+    background-color: lightskyblue;
+    height: 40%;
+}
+
+.columna2 {
+    background-color: plum;
+    height: 10%;
+}
