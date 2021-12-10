@@ -1,27 +1,32 @@
 body {
     height: 100%;
 }
-.menu {
+
+.menu, .subcaja1, .subcaja2 {
     background-color: lightgrey;
-    height: 20%;
+    height: 75px;
 }
 
 .cabecera {
     background-color: lightgreen;
-    height: 30%;
 }
 
 .columna1 {
     background-color: lightpink;
-    height: 40%;
 }
 
 .contenido {
     background-color: lightskyblue;
-    height: 40%;
 }
 
 .columna2 {
-    background-color: plum;
-    height: 10%;
+    background-color: violet;
+}
+
+.cabecera {
+    height: 125px;
+}
+
+.columna1, .contenido, .columna2 {
+    height: 325px;
 }
